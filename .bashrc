@@ -1,0 +1,7 @@
+alias NRFreset='~/development/nrfbox/nrf-gcc-sdk/jlinkScripts/reset.sh'
+alias NRFgotoScriptsDirectory='cd ~/development/nrfbox/nrf-gcc-sdk/jlinkScripts'
+alias NRFflash='~/development/nrfbox/jlinkScripts/flash.sh'
+alias NRFclearFlash='/Users/nipunkanade/development/nrfbox/nrf-gcc-sdk/jlinkScripts/clearFlash.sh'
+alias NRFflashSoftdevice_s110='NRFclearFlash ~/development/nrfbox/nrf-gcc-sdk/components/softdevice/s110/hex/s110_nrf51_8.0.0_softdevice.hex'
+alias NRFflashSoftdevice_s120='NRFclearFlash ~/development/nrfbox/nrf-gcc-sdk/components/softdevice/s120/hex/s120_nrf51_2.1.0_softdevice.hex'
+alias NRFflashSoftdevice_s130='NRFclearFlash ~/development/nrfbox/nrf-gcc-sdk/components/softdevice/s130/hex/s130_nrf51_1.0.0_softdevice.hex'
