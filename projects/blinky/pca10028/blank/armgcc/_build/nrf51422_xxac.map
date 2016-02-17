@@ -1,0 +1,332 @@
+Archive member included to satisfy reference by file (symbol)
+
+/usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-exit.o)
+                              /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/crt0.o (exit)
+/usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-impure.o)
+                              /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-exit.o) (_global_impure_ptr)
+/usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-init.o)
+                              /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/crt0.o (__libc_init_array)
+/usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memset.o)
+                              /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/crt0.o (memset)
+/usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libnosys.a(_exit.o)
+                              /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-exit.o) (_exit)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crti.o
+ .data          0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crti.o
+ .bss           0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crti.o
+ .data          0x00000000        0x4 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crtbegin.o
+ .data          0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .bss           0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .ARM.extab     0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .text          0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-exit.o)
+ .data          0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-exit.o)
+ .bss           0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-exit.o)
+ .text          0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-impure.o)
+ .data          0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x00000000        0x4 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-impure.o)
+ .text          0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-init.o)
+ .data          0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-init.o)
+ .bss           0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-init.o)
+ .text          0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memset.o)
+ .data          0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memset.o)
+ .text          0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libnosys.a(_exit.o)
+ .data          0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libnosys.a(_exit.o)
+ .bss           0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libnosys.a(_exit.o)
+ .text          0x00000000        0x0 _build/system_nrf51.o
+ .data          0x00000000        0x0 _build/system_nrf51.o
+ .bss           0x00000000        0x0 _build/system_nrf51.o
+ .text.SystemCoreClockUpdate
+                0x00000000       0x10 _build/system_nrf51.o
+ .data.SystemCoreClock
+                0x00000000        0x4 _build/system_nrf51.o
+ .text          0x00000000        0x0 _build/main.o
+ .data          0x00000000        0x0 _build/main.o
+ .bss           0x00000000        0x0 _build/main.o
+ .text          0x00000000        0x0 _build/nrf_delay.o
+ .data          0x00000000        0x0 _build/nrf_delay.o
+ .bss           0x00000000        0x0 _build/nrf_delay.o
+ .data          0x00000000        0x0 _build/gcc_startup_nrf51.o
+ .bss           0x00000000        0x0 _build/gcc_startup_nrf51.o
+ .ARM.extab     0x00000000        0x0 _build/gcc_startup_nrf51.o
+ .text          0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crtend.o
+ .data          0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crtend.o
+ .bss           0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crtend.o
+ .eh_frame      0x00000000        0x4 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crtend.o
+ .jcr           0x00000000        0x4 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crtend.o
+ .text          0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crtn.o
+ .data          0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crtn.o
+ .bss           0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x00000000         0x00040000         xr
+RAM              0x20000000         0x00008000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crti.o
+LOAD /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crtbegin.o
+LOAD /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+LOAD /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a
+LOAD /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libnosys.a
+LOAD _build/system_nrf51.o
+LOAD _build/main.o
+LOAD _build/nrf_delay.o
+LOAD _build/gcc_startup_nrf51.o
+START GROUP
+LOAD /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libgcc.a
+LOAD /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a
+END GROUP
+START GROUP
+LOAD /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libgcc.a
+LOAD /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a
+END GROUP
+LOAD /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crtend.o
+LOAD /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crtn.o
+START GROUP
+LOAD /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libgcc.a
+LOAD /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc.a
+LOAD /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libnosys.a
+END GROUP
+
+.fs_data_out    0x00000000        0x0
+                [!provide]                PROVIDE (__start_fs_data, .)
+ *(fs_data)
+                [!provide]                PROVIDE (__stop_fs_data, .)
+
+.text           0x00000000      0x42c
+ *(.Vectors)
+ .Vectors       0x00000000       0xc0 _build/gcc_startup_nrf51.o
+                0x00000000                __Vectors
+ *(.text*)
+ .text          0x000000c0       0xb4 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crtbegin.o
+ .text          0x00000174       0x78 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+                0x00000174                _mainCRTStartup
+                0x00000174                _start
+ .text.exit     0x000001ec       0x2c /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-exit.o)
+                0x000001ec                exit
+ .text.__libc_init_array
+                0x00000218       0x4c /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-init.o)
+                0x00000218                __libc_init_array
+ .text.memset   0x00000264       0x10 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memset.o)
+                0x00000264                memset
+ .text._exit    0x00000274        0x4 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libnosys.a(_exit.o)
+                0x00000274                _exit
+ .text.SystemInit
+                0x00000278       0x94 _build/system_nrf51.o
+                0x00000278                SystemInit
+ .text.startup.main
+                0x0000030c       0x6c _build/main.o
+                0x0000030c                main
+ .text.nrf_delay_ms
+                0x00000378       0x3c _build/nrf_delay.o
+                0x00000378                nrf_delay_ms
+ .text          0x000003b4       0x54 _build/gcc_startup_nrf51.o
+                0x000003b4                Reset_Handler
+                0x000003fc                NMI_Handler
+                0x000003fe                HardFault_Handler
+                0x00000400                SVC_Handler
+                0x00000402                PendSV_Handler
+                0x00000404                SysTick_Handler
+                0x00000406                TIMER2_IRQHandler
+                0x00000406                SPI0_TWI0_IRQHandler
+                0x00000406                RTC0_IRQHandler
+                0x00000406                GPIOTE_IRQHandler
+                0x00000406                POWER_CLOCK_IRQHandler
+                0x00000406                RADIO_IRQHandler
+                0x00000406                LPCOMP_IRQHandler
+                0x00000406                SWI4_IRQHandler
+                0x00000406                TEMP_IRQHandler
+                0x00000406                QDEC_IRQHandler
+                0x00000406                UART0_IRQHandler
+                0x00000406                SWI5_IRQHandler
+                0x00000406                TIMER0_IRQHandler
+                0x00000406                SWI0_IRQHandler
+                0x00000406                TIMER1_IRQHandler
+                0x00000406                ECB_IRQHandler
+                0x00000406                Default_Handler
+                0x00000406                ADC_IRQHandler
+                0x00000406                SWI3_IRQHandler
+                0x00000406                CCM_AAR_IRQHandler
+                0x00000406                WDT_IRQHandler
+                0x00000406                SWI2_IRQHandler
+                0x00000406                RNG_IRQHandler
+                0x00000406                SPI1_TWI1_IRQHandler
+                0x00000406                RTC1_IRQHandler
+                0x00000406                SWI1_IRQHandler
+ *(.init)
+ .init          0x00000408        0x4 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crti.o
+                0x00000408                _init
+ .init          0x0000040c        0x8 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crtn.o
+ *(.fini)
+ .fini          0x00000414        0x4 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crti.o
+                0x00000414                _fini
+ .fini          0x00000418        0x8 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crtn.o
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ *(.rodata*)
+ .rodata.str1.1
+                0x00000420        0x2 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-impure.o)
+ *fill*         0x00000422        0x2 
+ .rodata._global_impure_ptr
+                0x00000424        0x4 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-impure.o)
+                0x00000424                _global_impure_ptr
+ .rodata.leds_list
+                0x00000428        0x4 _build/main.o
+                0x00000428                leds_list
+ *(.eh_frame*)
+ .eh_frame      0x0000042c        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crtbegin.o
+                0x0000042c                . = ALIGN (0x4)
+
+.glue_7         0x0000042c        0x0
+ .glue_7        0x0000042c        0x0 linker stubs
+
+.glue_7t        0x0000042c        0x0
+ .glue_7t       0x0000042c        0x0 linker stubs
+
+.vfp11_veneer   0x0000042c        0x0
+ .vfp11_veneer  0x0000042c        0x0 linker stubs
+
+.v4_bx          0x0000042c        0x0
+ .v4_bx         0x0000042c        0x0 linker stubs
+
+.iplt           0x0000042c        0x0
+ .iplt          0x0000042c        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crtbegin.o
+
+.ARM.extab      0x0000042c        0x0
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x0000042c                . = ALIGN (0x4)
+                0x0000042c                __exidx_start = .
+
+.ARM.exidx      0x0000042c        0x8
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+ .ARM.exidx     0x0000042c        0x8 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .ARM.exidx     0x00000434        0x0 _build/gcc_startup_nrf51.o
+                                  0x8 (size before relaxing)
+                0x00000434                . = ALIGN (0x4)
+                0x00000434                __exidx_end = .
+                0x00000434                __etext = .
+
+.rel.dyn        0x00000434        0x0
+ .rel.iplt      0x00000434        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crtbegin.o
+
+.data           0x20000000       0x68 load address 0x00000434
+                0x20000000                __data_start__ = .
+ *(vtable)
+ *(.data*)
+ .data.impure_data
+                0x20000000       0x60 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-impure.o)
+                0x20000060                . = ALIGN (0x4)
+                0x20000060                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array)
+                0x20000060                PROVIDE (__preinit_array_end, .)
+                0x20000060                . = ALIGN (0x4)
+                0x20000060                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array)
+ .init_array    0x20000060        0x4 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crtbegin.o
+                0x20000064                PROVIDE (__init_array_end, .)
+                0x20000064                . = ALIGN (0x4)
+                [!provide]                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+ .fini_array    0x20000064        0x4 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crtbegin.o
+                [!provide]                PROVIDE (__fini_array_end, .)
+ *(.jcr)
+ .jcr           0x20000068        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crtbegin.o
+                0x20000068                . = ALIGN (0x4)
+                0x20000068                __data_end__ = .
+
+.tm_clone_table
+                0x20000068        0x0 load address 0x0000049c
+ .tm_clone_table
+                0x20000068        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crtbegin.o
+ .tm_clone_table
+                0x20000068        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crtend.o
+
+.igot.plt       0x20000068        0x0 load address 0x0000049c
+ .igot.plt      0x20000068        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crtbegin.o
+
+.bss            0x20000068       0x1c load address 0x0000049c
+                0x20000068                . = ALIGN (0x4)
+                0x20000068                __bss_start__ = .
+ *(.bss*)
+ .bss           0x20000068       0x1c /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crtbegin.o
+ *(COMMON)
+                0x20000084                . = ALIGN (0x4)
+                0x20000084                __bss_end__ = .
+
+.heap           0x20000088      0x800
+                0x20000088                __end__ = .
+                0x20000088                end = __end__
+ *(.heap*)
+ .heap          0x20000088      0x800 _build/gcc_startup_nrf51.o
+                0x20000088                __HeapBase
+                0x20000888                __HeapLimit = .
+
+.stack_dummy    0x20000088      0x800
+ *(.stack*)
+ .stack         0x20000088      0x800 _build/gcc_startup_nrf51.o
+                0x20008000                __StackTop = (ORIGIN (RAM) + LENGTH (RAM))
+                0x20007800                __StackLimit = (__StackTop - SIZEOF (.stack_dummy))
+                0x20008000                PROVIDE (__stack, __StackTop)
+                0x00000001                ASSERT ((__StackLimit >= __HeapLimit), region RAM overflowed with stack)
+OUTPUT(_build/nrf51422_xxac.out elf32-littlearm)
+
+.ARM.attributes
+                0x00000000       0x28
+ .ARM.attributes
+                0x00000000       0x1e /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crti.o
+ .ARM.attributes
+                0x0000001e       0x2c /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crtbegin.o
+ .ARM.attributes
+                0x0000004a       0x1b /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .ARM.attributes
+                0x00000065       0x2c /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-exit.o)
+ .ARM.attributes
+                0x00000091       0x2c /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-impure.o)
+ .ARM.attributes
+                0x000000bd       0x2c /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-init.o)
+ .ARM.attributes
+                0x000000e9       0x2c /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memset.o)
+ .ARM.attributes
+                0x00000115       0x2c /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libnosys.a(_exit.o)
+ .ARM.attributes
+                0x00000141       0x31 _build/system_nrf51.o
+ .ARM.attributes
+                0x00000172       0x31 _build/main.o
+ .ARM.attributes
+                0x000001a3       0x31 _build/nrf_delay.o
+ .ARM.attributes
+                0x000001d4       0x1b _build/gcc_startup_nrf51.o
+ .ARM.attributes
+                0x000001ef       0x2c /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crtend.o
+ .ARM.attributes
+                0x0000021b       0x1e /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crtn.o
+
+.comment        0x00000000       0x6e
+ .comment       0x00000000       0x6e _build/system_nrf51.o
+                                 0x6f (size before relaxing)
+ .comment       0x0000006e       0x6f _build/main.o
+ .comment       0x0000006e       0x6f _build/nrf_delay.o
+
+.debug_frame    0x00000000       0x94
+ .debug_frame   0x00000000       0x28 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-exit.o)
+ .debug_frame   0x00000028       0x2c /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-init.o)
+ .debug_frame   0x00000054       0x20 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memset.o)
+ .debug_frame   0x00000074       0x20 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libnosys.a(_exit.o)
