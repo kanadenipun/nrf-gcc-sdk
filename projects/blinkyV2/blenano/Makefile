@@ -1,4 +1,4 @@
-PROJECT_NAME := blinky_blank_pca10028
+PROJECT_NAME := blinky_nano
 
 export OUTPUT_FILENAME
 #MAKEFILE_NAME := $(CURDIR)/$(word $(words $(MAKEFILE_LIST)),$(MAKEFILE_LIST))
@@ -42,11 +42,11 @@ $(abspath ../main.c) \
 $(abspath ../../../components/drivers_nrf/delay/nrf_delay.c) \
 
 #assembly files common to all targets
-ASM_SOURCE_FILES  = $(abspath ../../../../../components/toolchain/gcc/gcc_startup_nrf51.s)
+ASM_SOURCE_FILES  = $(abspath ../../../components/toolchain/gcc/gcc_startup_nrf51.s)
 
 #includes common to all targets
-INC_PATHS  = -I$(abspath ../../../config/blinky_blank_pca10028)
-INC_PATHS += -I$(abspath ../../../config)
+INC_PATHS  = -I$(abspath ../../../config/blinky_nano)
+INC_PATHS += -I$(abspath ../config)
 INC_PATHS += -I$(abspath ../../../components/toolchain/gcc)
 INC_PATHS += -I$(abspath ../../../components/toolchain)
 INC_PATHS += -I$(abspath ../../..)
@@ -64,7 +64,7 @@ BUILD_DIRECTORIES := $(sort $(OBJECT_DIRECTORY) $(OUTPUT_BINARY_DIRECTORY) $(LIS
 
 #flags common to all targets
 CFLAGS  = -DNRF51
-CFLAGS += -DBOARD_PCA10028
+CFLAGS += -DBOARD_RBL_NANO
 CFLAGS += -DBSP_DEFINES_ONLY
 CFLAGS += -mcpu=cortex-m0
 CFLAGS += -mthumb -mabi=aapcs --std=gnu99
@@ -86,7 +86,7 @@ LDFLAGS += --specs=nano.specs -lc -lnosys
 # Assembler flags
 ASMFLAGS += -x assembler-with-cpp
 ASMFLAGS += -DNRF51
-ASMFLAGS += -DBOARD_PCA10028
+ASMFLAGS += -DBOARD_RBL_NANO
 ASMFLAGS += -DBSP_DEFINES_ONLY
 #default target - first one defined
 default: clean nrf51422_xxac

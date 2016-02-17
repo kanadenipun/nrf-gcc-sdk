@@ -47,6 +47,8 @@ Discarded input sections
  .text          0x00000000        0x0 _build/main.o
  .data          0x00000000        0x0 _build/main.o
  .bss           0x00000000        0x0 _build/main.o
+ .rodata.leds_list
+                0x00000000        0x1 _build/main.o
  .text          0x00000000        0x0 _build/nrf_delay.o
  .data          0x00000000        0x0 _build/nrf_delay.o
  .bss           0x00000000        0x0 _build/nrf_delay.o
@@ -101,7 +103,7 @@ END GROUP
  *(fs_data)
                 [!provide]                PROVIDE (__stop_fs_data, .)
 
-.text           0x00000000      0x42c
+.text           0x00000000      0x418
  *(.Vectors)
  .Vectors       0x00000000       0xc0 _build/gcc_startup_nrf51.o
                 0x00000000                __Vectors
@@ -123,52 +125,52 @@ END GROUP
                 0x00000278       0x94 _build/system_nrf51.o
                 0x00000278                SystemInit
  .text.startup.main
-                0x0000030c       0x6c _build/main.o
+                0x0000030c       0x5c _build/main.o
                 0x0000030c                main
  .text.nrf_delay_ms
-                0x00000378       0x3c _build/nrf_delay.o
-                0x00000378                nrf_delay_ms
- .text          0x000003b4       0x54 _build/gcc_startup_nrf51.o
-                0x000003b4                Reset_Handler
-                0x000003fc                NMI_Handler
-                0x000003fe                HardFault_Handler
-                0x00000400                SVC_Handler
-                0x00000402                PendSV_Handler
-                0x00000404                SysTick_Handler
-                0x00000406                TIMER2_IRQHandler
-                0x00000406                SPI0_TWI0_IRQHandler
-                0x00000406                RTC0_IRQHandler
-                0x00000406                GPIOTE_IRQHandler
-                0x00000406                POWER_CLOCK_IRQHandler
-                0x00000406                RADIO_IRQHandler
-                0x00000406                LPCOMP_IRQHandler
-                0x00000406                SWI4_IRQHandler
-                0x00000406                TEMP_IRQHandler
-                0x00000406                QDEC_IRQHandler
-                0x00000406                UART0_IRQHandler
-                0x00000406                SWI5_IRQHandler
-                0x00000406                TIMER0_IRQHandler
-                0x00000406                SWI0_IRQHandler
-                0x00000406                TIMER1_IRQHandler
-                0x00000406                ECB_IRQHandler
-                0x00000406                Default_Handler
-                0x00000406                ADC_IRQHandler
-                0x00000406                SWI3_IRQHandler
-                0x00000406                CCM_AAR_IRQHandler
-                0x00000406                WDT_IRQHandler
-                0x00000406                SWI2_IRQHandler
-                0x00000406                RNG_IRQHandler
-                0x00000406                SPI1_TWI1_IRQHandler
-                0x00000406                RTC1_IRQHandler
-                0x00000406                SWI1_IRQHandler
+                0x00000368       0x3c _build/nrf_delay.o
+                0x00000368                nrf_delay_ms
+ .text          0x000003a4       0x54 _build/gcc_startup_nrf51.o
+                0x000003a4                Reset_Handler
+                0x000003ec                NMI_Handler
+                0x000003ee                HardFault_Handler
+                0x000003f0                SVC_Handler
+                0x000003f2                PendSV_Handler
+                0x000003f4                SysTick_Handler
+                0x000003f6                TIMER2_IRQHandler
+                0x000003f6                SPI0_TWI0_IRQHandler
+                0x000003f6                RTC0_IRQHandler
+                0x000003f6                GPIOTE_IRQHandler
+                0x000003f6                POWER_CLOCK_IRQHandler
+                0x000003f6                RADIO_IRQHandler
+                0x000003f6                LPCOMP_IRQHandler
+                0x000003f6                SWI4_IRQHandler
+                0x000003f6                TEMP_IRQHandler
+                0x000003f6                QDEC_IRQHandler
+                0x000003f6                UART0_IRQHandler
+                0x000003f6                SWI5_IRQHandler
+                0x000003f6                TIMER0_IRQHandler
+                0x000003f6                SWI0_IRQHandler
+                0x000003f6                TIMER1_IRQHandler
+                0x000003f6                ECB_IRQHandler
+                0x000003f6                Default_Handler
+                0x000003f6                ADC_IRQHandler
+                0x000003f6                SWI3_IRQHandler
+                0x000003f6                CCM_AAR_IRQHandler
+                0x000003f6                WDT_IRQHandler
+                0x000003f6                SWI2_IRQHandler
+                0x000003f6                RNG_IRQHandler
+                0x000003f6                SPI1_TWI1_IRQHandler
+                0x000003f6                RTC1_IRQHandler
+                0x000003f6                SWI1_IRQHandler
  *(.init)
- .init          0x00000408        0x4 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crti.o
-                0x00000408                _init
- .init          0x0000040c        0x8 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crtn.o
+ .init          0x000003f8        0x4 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crti.o
+                0x000003f8                _init
+ .init          0x000003fc        0x8 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crtn.o
  *(.fini)
- .fini          0x00000414        0x4 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crti.o
-                0x00000414                _fini
- .fini          0x00000418        0x8 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crtn.o
+ .fini          0x00000404        0x4 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crti.o
+                0x00000404                _fini
+ .fini          0x00000408        0x8 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crtn.o
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -181,51 +183,48 @@ END GROUP
  *(.dtors)
  *(.rodata*)
  .rodata.str1.1
-                0x00000420        0x2 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-impure.o)
- *fill*         0x00000422        0x2 
+                0x00000410        0x2 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-impure.o)
+ *fill*         0x00000412        0x2 
  .rodata._global_impure_ptr
-                0x00000424        0x4 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-impure.o)
-                0x00000424                _global_impure_ptr
- .rodata.leds_list
-                0x00000428        0x4 _build/main.o
-                0x00000428                leds_list
+                0x00000414        0x4 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-impure.o)
+                0x00000414                _global_impure_ptr
  *(.eh_frame*)
- .eh_frame      0x0000042c        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crtbegin.o
-                0x0000042c                . = ALIGN (0x4)
+ .eh_frame      0x00000418        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crtbegin.o
+                0x00000418                . = ALIGN (0x4)
 
-.glue_7         0x0000042c        0x0
- .glue_7        0x0000042c        0x0 linker stubs
+.glue_7         0x00000418        0x0
+ .glue_7        0x00000418        0x0 linker stubs
 
-.glue_7t        0x0000042c        0x0
- .glue_7t       0x0000042c        0x0 linker stubs
+.glue_7t        0x00000418        0x0
+ .glue_7t       0x00000418        0x0 linker stubs
 
-.vfp11_veneer   0x0000042c        0x0
- .vfp11_veneer  0x0000042c        0x0 linker stubs
+.vfp11_veneer   0x00000418        0x0
+ .vfp11_veneer  0x00000418        0x0 linker stubs
 
-.v4_bx          0x0000042c        0x0
- .v4_bx         0x0000042c        0x0 linker stubs
+.v4_bx          0x00000418        0x0
+ .v4_bx         0x00000418        0x0 linker stubs
 
-.iplt           0x0000042c        0x0
- .iplt          0x0000042c        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crtbegin.o
+.iplt           0x00000418        0x0
+ .iplt          0x00000418        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crtbegin.o
 
-.ARM.extab      0x0000042c        0x0
+.ARM.extab      0x00000418        0x0
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x0000042c                . = ALIGN (0x4)
-                0x0000042c                __exidx_start = .
+                0x00000418                . = ALIGN (0x4)
+                0x00000418                __exidx_start = .
 
-.ARM.exidx      0x0000042c        0x8
+.ARM.exidx      0x00000418        0x8
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
- .ARM.exidx     0x0000042c        0x8 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/crt0.o
- .ARM.exidx     0x00000434        0x0 _build/gcc_startup_nrf51.o
+ .ARM.exidx     0x00000418        0x8 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .ARM.exidx     0x00000420        0x0 _build/gcc_startup_nrf51.o
                                   0x8 (size before relaxing)
-                0x00000434                . = ALIGN (0x4)
-                0x00000434                __exidx_end = .
-                0x00000434                __etext = .
+                0x00000420                . = ALIGN (0x4)
+                0x00000420                __exidx_end = .
+                0x00000420                __etext = .
 
-.rel.dyn        0x00000434        0x0
- .rel.iplt      0x00000434        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crtbegin.o
+.rel.dyn        0x00000420        0x0
+ .rel.iplt      0x00000420        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crtbegin.o
 
-.data           0x20000000       0x68 load address 0x00000434
+.data           0x20000000       0x68 load address 0x00000420
                 0x20000000                __data_start__ = .
  *(vtable)
  *(.data*)
@@ -253,16 +252,16 @@ END GROUP
                 0x20000068                __data_end__ = .
 
 .tm_clone_table
-                0x20000068        0x0 load address 0x0000049c
+                0x20000068        0x0 load address 0x00000488
  .tm_clone_table
                 0x20000068        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crtbegin.o
  .tm_clone_table
                 0x20000068        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crtend.o
 
-.igot.plt       0x20000068        0x0 load address 0x0000049c
+.igot.plt       0x20000068        0x0 load address 0x00000488
  .igot.plt      0x20000068        0x0 /usr/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crtbegin.o
 
-.bss            0x20000068       0x1c load address 0x0000049c
+.bss            0x20000068       0x1c load address 0x00000488
                 0x20000068                . = ALIGN (0x4)
                 0x20000068                __bss_start__ = .
  *(.bss*)
